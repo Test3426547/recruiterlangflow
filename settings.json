@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "remote.extensionKind": {
+        "ms-vscode-remote.remote-ssh": ["ui"],
+        "ms-vscode-remote.remote-ssh-edit": ["ui"],
+        "pub.name": ["ui"]
+    },
+    "remote.SSH.remotePlatform": {
+        "codeanywhere": "linux"
+    },
+    "remote.SSH.configFile": "/home/ove/.ssh/config",
+    "remote.SSH.useLocalServer": false
+}
