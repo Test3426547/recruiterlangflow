@@ -9,5 +9,5 @@
         "codeanywhere": "linux"
     },
     "remote.SSH.configFile": "/home/ove/.ssh/config",
-    "remote.SSH.useLocalServer": false
+    "remote.SSH.useLocalServer": true
 }

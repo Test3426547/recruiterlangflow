@@ -1,3 +1,11 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "remote.portsAttributes": {
+        "7860": {
+            "label": "Langflow",
+            "onAutoForward": "openBrowser",
+            "protocol": "http"
+        }
+    },
+    "remote.forwardPorts": [7860]
 }
