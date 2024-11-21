@@ -24,6 +24,19 @@
                 "panel": "new",
                 "clear": true
             }
+        },
+        {
+            "label": "Cursor Server Management",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "PS3='Select an option: '; select opt in 'Start Server' 'Stop Server' 'Restart Server' 'Check Status' 'View Logs' 'Clear Logs' 'Exit'; do case $opt in 'Start Server') .vscode/scripts/cursor-server.sh;; 'Stop Server') .vscode/scripts/cursor-stop.sh;; 'Restart Server') .vscode/scripts/cursor-restart.sh;; 'Check Status') .vscode/scripts/cursor-status.sh;; 'View Logs') less .vscode/logs/cursor-server.log;; 'Clear Logs') echo '' > .vscode/logs/cursor-server.log;; 'Exit') break;; *) echo 'Invalid option';; esac; done"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
         }
     ]
 }

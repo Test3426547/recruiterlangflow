@@ -1,0 +1,56 @@
+[INFO] 2024-11-21 03:06:59 - Starting Cursor server on port 63001
+[03:06:59] 
+
+
+
+
+[03:06:59] Extension host agent started.
+[03:06:59] Error occurred in server
+[03:06:59] Error: listen EADDRINUSE: address already in use 0.0.0.0:63001
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at doListen (node:net:2116:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 63001
+}
+[INFO] 2024-11-21 03:07:01 - Server started. Check logs for details.
+[INFO] 2024-11-21 03:50:37 - Cursor server is already running on port 63001
+[INFO] 2024-11-21 03:57:28 - Starting Cursor server on port 65000
+Server bound to 0.0.0.0:65000 (IPv4)
+Extension host agent listening on 65000
+
+[03:57:28] 
+
+
+
+
+[03:57:28] Extension host agent started.
+[INFO] 2024-11-21 03:58:32 - Cursor server is already running on port 63001
+[INFO] 2024-11-21 04:02:10 - Starting Cursor server on port 63001
+Server bound to 0.0.0.0:63001 (IPv4)
+Extension host agent listening on 63001
+
+[04:02:10] 
+
+
+
+
+[04:02:10] Extension host agent started.
+[INFO] 2024-11-21 04:02:12 - Server started successfully on port 63001
+[INFO] 2024-11-21 04:10:45 - Cursor server is already running on port 63001
+[INFO] 2024-11-21 04:12:53 - Cursor server is already running on port 63000
+[INFO] 2024-11-21 04:14:17 - Starting Cursor server on port 63000
+Server bound to 0.0.0.0:63000 (IPv4)
+Extension host agent listening on 63000
+
+[04:14:17] 
+
+
+
+
+[04:14:17] Extension host agent started.
+[INFO] 2024-11-21 04:14:19 - Server started successfully on port 63000
